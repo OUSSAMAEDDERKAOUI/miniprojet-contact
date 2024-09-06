@@ -76,20 +76,21 @@ int main()
             {
                 if (strcmp(cont[i].nom,nomsupprime)==0)
                 {
-                    supp++;
                for (j=i;j<count;j++){
                 cont[j]=cont[j+1];
 
                }
              printf("le contact a ete supprimer avec success !\n");
              count--;
+             supp++;
+
              break;
                 }
             }
 
 
 
-            if (supp==1)
+            if (supp==0)
                 printf("le contact est introuvable !\n");
             break;
 
@@ -117,6 +118,8 @@ int main()
 
             break;
         }
+        system ("pause");
+        system ("cls");
     }
     while (nombre !=0);
     return 0;
