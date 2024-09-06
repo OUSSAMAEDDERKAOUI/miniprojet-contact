@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1725576386 source:c:\users\underground\desktop\miniprojet-contact\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
